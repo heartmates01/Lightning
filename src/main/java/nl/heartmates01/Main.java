@@ -26,7 +26,7 @@ class Sound {
   public static void main(String[] args) {
     
     Scanner scanner = new Scanner(System.in);
-    System.out.println("Calculate in FT or MS?\n1. FT\n2.MS");
+    System.out.println("Calculate in FT or MS?\n1. FT\n2. MS");
     int choice = scanner.nextInt();
     
     int distance = 0;
